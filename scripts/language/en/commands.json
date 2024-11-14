@@ -1,0 +1,674 @@
+{
+    "type": "en",
+    "afk": {
+        "embed_description1": "**AFK mode set to: `{{txt}}`**\nIt will be disabled automatically when you say something in the chat.",
+        "embed_description2": "**AFK mode enabled**\nIt will be disabled automatically when you say something in the chat.",
+        "metion1": "**The user __{{user}}__ is AFK**",
+        "metion2": "**The user __{{user}}__ is AFK with the argument:** `{{reason}}`",
+        "return": "**Hello {{user}} welcome back!!**"
+    },
+    "help": {
+        "noCommand": "No command found",
+        "categoriesMenu": "Select a category",
+        "footer": "You can see the more detailed command list at: https://alpha-site.vercel.app/en/commands",
+        "home": "Choose which category you want to get the command list\n\n**📌 Available categories:**\n`{{categoriesText}}`"
+    },
+    "prefix": {
+        "embed_description": "**Add a prefix with up to 4 characters**",
+        "embed2_description": "**Prefix changed to** `{{args}}`"
+    },
+    "rankmsg": {
+        "embed_title": "UP message",
+        "embed_description": "**To turn off use the parameter: `rankmsg off`\nTo turn on use the parameter: `rankmsg on`\nTo define a channel use the parameter: `rankmsg <channel/channel id>`\nTo edit the message use the parameter: `rankmsg edit <msg>`\nTo test the message use: `rankmsg test`\n\n**You can add embed content, for help you can use the website: __https://leovoel.github.io/embed-visualizer/__**\n\nParameters to edit:\n`{@user}`: **Mention the user who has leveled up**\n`{user}`: **Name of the user who leveled up without mentioning him**\n`{lv}`: **Level up**\n\nUsage example:**",
+        "embedon_description": "**<:on:785886074924564573> Rank up message on!!**",
+        "embedoff_description": "**<:off:785886043597570058> Rank up message off!!**",
+        "embedchannel_description": "**💬 Rank up channel set to**",
+        "embedrankmsg_description": "**Message set to:**",
+        "noMsg": "**Type a message!**",
+        "max": "**Use less than `500` characters!!**"
+    },
+    "ban": {
+        "embed_description": "**You can't banish**",
+        "embed2_description": "**It is not possible to ban**",
+        "embedban_description": "**User {{author}} banned {{user}}\nReason: `{{reason}}`**",
+        "embedbandm_description": "**You have been banned from the server `{{guild}}` by the user `{{author}}`\nReason: `{{reason}}`**"
+    },
+    "clear": { 
+        "embed_description": "**Provide a number from `1` to `100` messages to be deleted.**",
+        "embed2_description": "messages cleared by"
+    },
+    "kick": {
+        "embed_description": "**You cannot expel yourself**",
+        "embed2_description": "**It is not possible to expel**",
+        "embedkick_description": "**User {{author}} kicked out {{user}}\nReason: `{{reason}}`**",
+        "embedkickdm_description": "**You have been kicked from the server `{{guild}}` by the user `{{author}}`\nReason:** `{{reason}}`"
+    },
+    "mute": {
+        "invalidTime": "**Add a time between `1s` to `4w`**",
+        "embed_description": "**You cannot silence yourself**",
+        "embed2_description": "**It is not possible to silence**",
+        "embed3_description": "**Enter a valid time**",
+        "embedmute_description": "**User {{author}} silenced {{user}}\nReason: `{{reason}}`\nTime: `{{args[1]}}`**",
+        "embedmutedm_description": "**You have been mutated on the server `{{guild}}` by the user `{{author}}`\nReason: `{{reason}}`\nTime: `{{args[1]}}`**",
+        "time": "**Your mute time is up**",
+        "punished": "**The user is already punished!**"
+    },
+    "slowmode": {
+        "embed_description": "**Place a Value**",
+        "embed2_description": "**Use a value between `1s` to `6h`, or `off` to turn off**",
+        "embed3_description": "**Channel slow mode set to**",
+        "embed4_description": "**Channel slowmode off**"
+    },
+    "unban": {
+        "embed_description": "**Add a valid id**",
+        "embed2_description": "**What?**",
+        "embed3_description": "**I didn't find any user banned with the id**",
+        "embedunbandm_description": "**You have been unbanned from the server `{{guild}}` by the user `{{author}}`**",
+        "embedunban_description": "**User {{author}} desban `{{user}}`**"
+    },
+    "unmute": {
+        "embed_description": "**Unable to unmute**",
+        "embedunmute_description": "**User {{author}} removed the silencing of {{user}}**",
+        "embedunmutedm_description": "**You can speak again in `{{guild}}` thanks `{{author}}`**",
+        "nopunished": "**The user is not punished!**"
+    },
+    "avatar": {
+        "embed_title": "Avatar of"
+    },
+    "perfil": {
+        "embed_description": "**Bots have no profile!!**",
+        "embed_author": "Profile of",
+        "embed_field1": "About me",
+        "embed_field2": "Guarded diamonds",
+        "embed_field3": "Commands used",
+        "embed_field4": "Married to"
+    },
+    "sobremim": {
+        "embed_description": "**Put a message to about me!!**",
+        "embed2_description": "**Place a message with less than `150` characters!!**",
+        "embed3_description": "**About me switched to**"
+    },
+    "top": {
+        "diamonds": {
+            "title": "💎 | Top Global Diamonds",
+            "description": "Diamonds"
+        },
+        "votes": {
+            "title": "💞 | Top Global Votes",
+            "description": "Votes"
+        },
+        "commands": {
+            "title": "💻 | Top global commands",
+            "description": "Used"
+        },
+        "rank": {
+            "title": "📈 | Local Top Rank",
+            "description": "Level"
+        },
+        "magicstone": {
+            "title": "🔮 | Top Global Magic Stones",
+            "description": "magicstones"
+        },
+        "rpg": {
+            "title": "⚔️  | Top global RPG",
+            "description": "Level",
+            "description2": "XP"
+        },
+        "embed_description": "**Provide a number from `1` to `200`**",
+        "embed2_description": "**There is not enough user in my DB**",
+        "embed3_description": "**You must add an argument between: `diamonds, rank, commands, votes, magicstone, rpg`**"
+    },
+    "invite": {
+        "embed_description": "**<a:seta:784072920296980510>[Vote for me](<https://top.gg/bot/766006179209936946/vote>)\n<a:seta:784072920296980510>[Add me](<https://discord.com/oauth2/authorize?client_id=766006179209936946&permissions=8&scope=applications.commands%20bot>)\n<a:seta:784072920296980510>[Support server](<https://discord.gg/33Zsrg5dTc>)\n<a:seta:784072920296980510>[Top.gg](<https://top.gg/bot/766006179209936946>)\n<a:seta:784072920296980510>[My WebSite](<https://alpha-site.vercel.app/>)**"
+    },
+    "botinfo": {
+        "memoryt": "Total memory:",
+        "memoryu": "Free memory:",
+        "platform": "Platform:",
+        "host": "Hostname:",
+        "embed_author": "Information of",
+        "embed_author2": "Bot cache",
+        "embed_field1": "Friends:",
+        "embed_field4": "Creation date:",
+        "embed_field5": "Total commands:",
+        "embed_field7": "Channels",
+        "embed_field8": "Users",
+        "embed_field9": "Time",
+        "embed_field10": "Servers",
+        "loading": "Loading"
+    },
+    "emojiinfo": {
+        "embed_description": "**Add an emoji ID or name you're looking for!!**",
+        "embed2_description": "**I didn't find any emoji related to**",
+        "name": "Name",
+        "mention": "Mention",
+        "created": "Created"
+    },
+    "emoji": {
+        "noFind": "I didn't find any emoji related to"
+    },
+    "serverinfo": {
+        "embed_author": "Server information",
+        "embed_field1": "Owner",
+        "embed_field2": "Name",
+        "embed_field3": "Preferred locale",
+        "embed_field4": "Channels",
+        "voice": "Voice",
+        "text": "Text",
+        "embed_field5": "Roles",
+        "embed_field6": "Members",
+        "embed_field7": "Created in",
+        "embed_field8": "You entered",
+        "embed_field9": "I entered",
+        "humans": "Humans"
+    },
+    "userinfo": {
+        "PLAYING": "🎮 Playing",
+        "LISTENING": "🎧 Listening",
+        "STREAMING": "<:stream:798212674370273340> Streaming",
+        "WATCHING": "🖥️ Watching",
+        "CUSTOM_STATUS": "🎲 Custom Status",
+        "COMPETING": "⚔️ Competing in",
+        "embed_field1": "Diamonds from",
+        "embed_field2": "Account created in",
+        "embed_field3": "Roles",
+        "embed_field4": "Entered into",
+        "embed_field5": "Married to",
+        "yes": "Yes",
+        "not": "Not",
+        "permissions": "Permissions"
+    },
+    "ball": {
+        "list": [
+            "Yes",
+            "Not",
+            "Perhaps",
+            "Can be",
+            "For sure!",
+            "What?",
+            "I have better things to do",
+            "I don't know, try again",
+            "Who knows?",
+            "This is a mistery",
+            "I don't want to make you sad...",
+            "I can't tell you",
+            "My informant said he didn't",
+            "Probably",
+            "Ask me later!",
+            "Of course!",
+            "Don't count on me for that",
+            "It may be possible!",
+            "I doubt it very much"
+        ],
+        "question": "Question:",
+        "embed_description": "**You need to ask a question!**",
+        "comment": "**I think it's better:**"
+    },
+    "color": {
+        "embed_title": "Color shop!",
+        "embed_description": "**__Each color change costs__ `1000💎`**\n\nUse any hexadecimal color code to change the color of your `profile, userinfo, bank, avatar, rank...`. __EX:__ `color #000000` to switch to black!\n\n**The default color is `{{color}}`**",
+        "embed2_description": "**You don't have enough diamonds in your pocket to buy a color!!**",
+        "embed3_description": "**not a valid hexadecimal color!!**",
+        "embed4_description": "Its color has been changed to"
+    },
+    "math": {
+        "wrongExpression": "Sorry but this doesn't look like an arithmetic expression to me",
+        "question": "Question",
+        "result": "Result"
+    },
+    "rank": {
+        "embed_description": "**Bots have no rank!!**"
+    },
+    "time": {
+        "embed_description": "I've been online for",
+        "embed_title": "Uptime"
+    },
+    "assault": {
+        "embed_description": "**You can't make a heist today, come back {{time}}**",
+        "embed2_description": "**You stole `{{valueD}} A$` today\nVote for me to get more!!**"
+    },
+    "bal": {
+        "embed_author": "Bank",
+        "embed2_description": "**Account:** {{user}}\n\n**Balance available:**\n`{{diamonds}} 💎`\n**Saved Balance:**\n`{{bank}} 💎`\n**AlphaCoin:**\n`{{dirty}} A$`\n**Magic Stones:**\n`{{stone}} 🔮`\n\n** **"
+    },
+    "coinflip": {
+        "embed_description": "**You can't bet with yourself!!**",
+        "embed2_description": "**Bots don't have diamonds!!**",
+        "embed3_description": "**Enter a valid quantity!!**",
+        "embed4_description": "**You don't have enough diamonds in your pocket!!**",
+        "embed5_description": "**User {{user}} doesn't have enough diamonds in his pocket!!**",
+        "embed6_description": "**wants to place a bet with you, If it falls Dude, you will win **{{amount}}** diamonds, if you fall Crown {{author}} you will win **{{amount}}** diamonds **",
+        "embed7_description": "**`heads` {{user}} You earned `{{amount}} 💎` from {{author}}!!**",
+        "embed8_description": "**`tails` {{author}} You earned `{{amount}} 💎` from {{user}}!!**",
+        "embed9_description": "Bet canceled!!"
+    },
+    "daily": {
+        "embed_description": "**You can't work today, come back {{time}}**",
+        "embed2_description": "**You won `{{valueD}}💎` working today\nVote for me to get more!!**"
+    },
+    "dep": {
+        "embed_description": "**You have `0` in your pocket**",
+        "embed3_description": "**You deposited  `{{diamonds}}💎` in your bank!!**",
+        "embed4_description": "**Enter a valid quantity!!**",
+        "embed5_description": "**You do not have `{{amount}} 💎` to Deposit**"
+    },
+    "exchange": {
+        "embed_description": "**You have no AlphaCoin!!**",
+        "embed2_description": "**Enter a valid quantity!!**",
+        "embed3_description": "**You don't have `{{amount}} A$` to Swap**",
+        "embed5_description": "**You exchanged `{{amount}} A$` and got `{{amount2}}💎`!!**",
+        "embed6_description": "**You tripped and fell, losing `{{amount}} A$`, but got `{{amount2}}💎`!!**"
+    },
+    "extract": {
+        "embed_description": "**You have `0` in the bank**",
+        "embed3_description": "**You extracted `{{bank}}💎` from your bank!!**",
+        "embed4_description": "**Enter a valid quantity!!**",
+        "embed5_description": "**You do not have `{{amount}} 💎` to Extract**"
+    },
+    "pay": {
+        "embed_description": "**You cannot transfer diamonds to yourself!!**",
+        "embed2_description": "**Enter a valid quantity!!**",
+        "embed3_description": "**You do not have `{{amount}} 💎` in the pocket**",
+        "embed4_description": "**Do you really want to transferr `{{amount}}💎` for `{{user}}`?**",
+        "embed5_description": "**You transferred `{{amount}}💎` for `{{user}}`!!**",
+        "embed6_description": "**Transfer canceled!!**"
+    },
+    "coke": {
+        "embed_title": "hmmmmmmm",
+        "embed_description": "gave a coke to"
+    },
+    "laugh": {
+        "embed_title": "KKKKKK",
+        "embed_description": "{{user}} made {{author}} fall to the ground with laughter",
+        "embed_description2": "{{author}} is pissing himself with laughter"
+    },
+    "comfort": {
+        "embed_title": "Comfort",
+        "embed_description": "comforted"
+    },
+    "hug": {
+        "embed_title": "Cute",
+        "embed_description": "hugged"
+    },
+    "kill": {
+        "embed_title": "kill",
+        "embed_description": "killed"
+    },
+    "kiss": {
+        "embed_title": "Love?",
+        "embed_description": "kissed"
+    },
+    "slap": {
+        "embed_title": "Oops!",
+        "embed_description": "slapped"
+    },
+    "block": {
+        "txton": "**My commands have been blocked on this channe!! to unlock use the command again**",
+        "txtoff": "**My commands have been unlocked on this channel!!**"
+    },
+    "report": {
+        "embed_description": "Thanks for reporting!!"
+    },
+    "google": {
+        "embed_description": "**I didn't find anything related to `{{query}}`!!**"
+    },
+    "weather": {
+        "noFind": "**I did not find any city with the name `{{query}}`!!**",
+        "embed_title": "Weather in",
+        "climate": "Climate",
+        "temperature": "Temperature",
+        "currentTemperature": "Current",
+        "temperatureMin": "Minimum",
+        "temperatureMax": "Maximum",
+        "sensation": "Thermal sensation",
+        "humidity": "Humidity",
+        "pressure": "Atmospheric pressure",
+        "wind": "Wind speed",
+        "date": "Date"
+    },
+    "slot": {
+        "invalidAmount": "**You must place an amount of `1000` to` 20000` diamonds**",
+        "noDiamonds": "**You don't have enough diamonds in your pocket**",
+        "embed_title": "Slot Machine",
+        "win": "You won",
+        "lose": "You lost",
+        "winMax": "You won the maximum prize!!"
+    },
+    "dog": {
+        "embed_description": "Look at that cute puppy ^^"
+    },
+    "cat": {
+        "embed_description": "Look at that cute cat ^^"
+    },
+	"mouse": {
+		"embed_description": "Look at this little mouse ^^"
+	},
+    "penguin": {
+        "embed_description": "What a cute penguin ^^"
+    },
+    "searchGif": {
+        "nofind": "**I didn't find anything related to `{{args}}`**"
+    },
+    "badges": {
+        "embed_title": "Badges Information"
+    },
+    "marry": {
+        "userBot": "**Bot?**",
+        "metionAuthor": "**It is not possible to marry yourself**",
+        "married": "**You are already married to `{{user}}`!!**",
+        "embed_description": "Want to marry you, do you accept the request?",
+        "embed2_description": "**❤️ {{user}} and {{author}} you are now married!!**",
+        "embed3_description": "**💔 {{author}} unfortunately {{user}} rejected your request. <:titi:838178630827507752>**"
+    },
+    "divorce": {
+        "noMarried": "**You are not married!!**",
+        "noGuild": "**Your spouse is not on this server!**",
+        "embed_description": "**<:titi:838178630827507752> {{user}}, {{author}} want a divorce with you, do you sign the papers?**",
+        "embed2_description": "**<:titi:838178630827507752> {{user}} and {{author}} you are now divorced.**",
+        "embed3_description": "**<:titi1:838178774431825981> {{user}} refuses to sign the papers**"
+    },
+    "channelinfo": {
+        "name": "Name",
+        "mention": "Mention",
+        "created": "Created",
+        "slowmode": "Slowmode",
+        "topic": "Topic",
+        "noTopic": "None",
+        "server": "Server",
+        "membersSize": "Connections",
+        "embed_description": "**I did not find any channel related to:**"
+    },
+    "play": {
+        "play": "**Music:  `{{songs.length}} -`** [{{title}}](<{{url}}>)**\n\nAdded to the queue by:  `{{author}}`\nDuration: `{{timestamp}}`**"
+    },
+    "playlist": {
+        "play": "**{{list}} Songs added to the queue per:  `{{author}}`\nTotal duration: `{{time}}`\nRelated to: `{{s}}`**"
+    },
+    "loop": {
+        "autoplayActivated": "**You cannot activate loop with autoplay enabled**",
+        "on": "**🔂 loop `on`**",
+        "off": "**🔂 loop `off`**"
+    },
+    "np": {
+        "embed_description": "Added by"
+    },
+    "pause": {
+        "resume": "**⏯️ Music playing again**",
+        "pause": "**⏸️ Paused music**"
+    },
+    "queue": {
+        "embed_title": "songs in the queue",
+        "now": "Playing now",
+        "next": "Next"
+    },
+    "remove": {
+        "invalid": "**Invalid number**",
+        "embed_description": "**❌ Music `{{amount}} - {{title}}` queue withdrawal!**"
+    },
+    "vol": {
+        "embed_title": "The volume is at",
+        "embed2_description": "**Use a value between `0` to `100`**",
+        "embed3_description": "Volume changed to"
+    },
+    "autoplay": {
+        "loopActivated": "**You cannot enable autoplay with looping enabled**",
+        "on": "**⏩ Autoplay `on`**",
+        "off": "**⏩ Autoplay `off`**"
+    },
+    "baninfo": {
+        "nofind": "I didn't find any user banned with id",
+        "embed_title": "Ban Information",
+        "embed_description": "If you want to unban this user, press ",
+        "embed_field": "Banned User",
+        "embed_field2": "Reason",
+        "embed2_description": "**User `{{user}}` has been unbanned!!**",
+        "embed3_description": "Error unbanning the user"
+    },
+    "deluser": {
+        "embed_description": "**Do you really want to delete your data?**\nthis will delete all your information stored in my DB",
+        "embed2_description": "**All your data has been deleted !!**",
+        "embed3_description": "**Operation canceled!!**"
+    },
+    "language": {
+        "embed_description": "**You must use an argument between `pt`, `en`**"
+    },
+    "magicstone": {
+        "nostone": "**You don't have any magic stones**\nVote for me to get them",
+        "nouseassault": "**You don't need to use magic stones you can use the `assault` command now !!**",
+        "nousediary": "**You don't need to use magic stones you can use the `daily` command now !!**",
+        "nouse": "**You don't need to use magic stones you can use the `daily` and `assault` commands now!!**",
+        "success": "**You used a magic stone and advanced in time now you can use the `daily` and `assault` commands**",
+        "lost": "**You used a magic stone but it exploded and went back in time, so you'll have to wait 1 more day to use the `daily` and `assault commands**"
+    },
+    "binary": {
+        "message": "Message",
+        "code": "Code",
+        "embed_description": "**Use:\n`binary decode <code>`: to decode a binary code \n`binary encode <msg>`: to encode a message in a binary code**"
+    },
+    "ytcomment": {
+        "nocomment": "**Add a comment!!**",
+        "limit": "**Add a comment with less than `150` characters!!**"
+    },
+    "money": {
+        "to": "to",
+        "embed_description": "**Use:** `money <coin1> <coin2> <amount>`\n**Use coins as:**\n`{{coin}}`\n\n**EX:** `money USD BRL 1`"
+    },
+    "mcskin": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> [{{user}} skin](<{{download}}>)**"
+    },
+    "mcuuid": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> The `UUID` of the player `{{user}}` is: `{{uuid}}`**"
+    },
+    "mchead": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> Head of {{user}}**"
+    },
+    "mcplayer": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> Player {{user}}**"
+    },
+    "mcbody": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> Body of {{user}}**"
+    },
+    "mcavatar": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> {{user}} avatar**"
+    },
+    "mcachievement": {
+        "embed_description": "**How to use:** `mcachievement [title] | [achievement]`",
+        "info": "Use \"|\" to separate the title from the text."
+    },
+    "mchistoric": {
+        "embed_description": "**<:redpanda_minecraft:828400937248489482> Name history of {{user}}**"
+    },
+    "mcinfo": {
+        "nofind": "**Server not found**",
+        "title": "{{server}} server information",
+        "players": "Players",
+        "hostname": "Hostname",
+        "versions": "Versions"
+    },
+    "ship": {
+        "text1": "**{{user1}} and {{user2}} make a good couple**",
+        "text2": "**{{user1}} and {{user2}} are not a good match**",
+        "text3": "**{{user1}} and {{user2}} make a terrible couple**",
+        "text4": "**{{user1}} and {{user2}} make a PERFECT couple!!**"
+    },
+    "ping": {
+        "api": "Connection ping",
+        "response": "Response time",
+        "edit": "Edit time",
+        "db": "DB Ping"
+    },
+    "addemoji": {
+        "error": "**Error trying to add emoji:\n```js\n{{error}}```**",
+        "success": "**Emoji added!!**",
+        "noImage": "**Add an image**"
+    },
+    "dictionary": {
+        "noArgs": "**You must add something to search!**",
+        "noFind": "**`{{arg}}` Was not found in the dictionary**"
+    },
+    "voicesay": {
+        "limit": "**You must add text with less than `200` characters**",
+        "embed_description": "**Use : `voicesay <language> <text>`\n\nAvailable language:**\n`{{languages}}`"
+    },
+    "disconnect": {
+        "disconnected": "**Disconnected!**"
+    },
+    "roleinfo": {
+        "noArgs": "**Use: `roleinfo <id/nome/menção>`\n\nEX: `roleinfo {{roleID}}`**",
+        "noFind": "**I didn't find any job related to: `{{args}}`**",
+        "mention": "Mention",
+        "color": "Color",
+        "mentionable": "Mentionable",
+        "separate": "Displays separately",
+        "created": "Created",
+        "permissions": "Permissions"
+    },
+    "welcome": {
+        "embed_description": "**To set a channel use: `welcome channel <channel/channel id>`\nTo edit the message use: `welcome edit <msg / embed>`\nTo test the message use: `welcome test`**\n\nYou can add embed content, for help you can use the website: __https://leovoel.github.io/embed-visualizer/__\n\n**Parameters to edit:**\n**`{@member}`:** Mention the member who joined the server\n**`{member}`:** Name of the member who joined the server\n**`{memberTag}`:** Member tag that entered the server\n**`{memberId}`:** Member ID that joined the server\n**`{avatar}`:** Avatar of the member who joined the server\n**`{guildMemberCount}`:** Number of server members\n**`{guildName}`:** Server name\n**`{date}`:** Current date\n\n**Usage example:**",
+        "setMessage": "**Message \"welcome \" set to:**```{{arg}}```",
+        "setChannel": "💬 **Channel \"welcome \" set to** `{{channel}}`",
+        "invalidChannel": "Invalid channel"
+    },
+    "leave": {
+        "embed_description": "**To set a channel use: `leave channel <channel/channel id>`\nTo edit a message use: `leave edit <msg / embed>`\nTo test the message use: `leave test`**\n\nYou can add embed content, for help you can use the website: __https://leovoel.github.io/embed-visualizer/__\n\n**Parameters to edit:**\n**`{@member}`:** Mention the member who has left the server\n**`{member}`:** Name of member who left the server\n**`{memberTag}`:** Member tag who left the server\n**`{memberId}`:** Member ID who left the server\n**`{avatar}`:** Avatar of the member who left the server\n**`{guildMemberCount}`:** Number of server members\n**`{guildName}`:** Server name\n**`{date}`:** Current date\n\n**Usage example:**",
+        "setMessage": "**Message \"leave \" set to:**```{{arg}}```",
+        "setChannel": "💬 **Channel \"leave \" set to** `{{channel}}`",
+        "invalidChannel": "Invalid channel"
+    },
+    "lgbt": {
+        "embed_description": "**You must add a valid flag category!\n\nAvailable categories:\n`asexual|bi|pan|polysexual|rainbow`\n\nEX: `lgbt rainbow`**"
+    },
+    "dungeon": {
+        "dungeonSelection": "Select the Dungeon",
+        "attackSelection": "Select Attack",
+        "itemSelection": "Select the Item",
+        "embed": "**Choose which dungeon you want to be in, and take them all out!**\n\nIf you can't go out well, you'll be unable to enter another dungeon for 12 hours.\n\n**Your status:**",
+        "embedDungeon": "You enter the dungeon and encounter a monster `{{monsterName}}`\n\n**Monster Status:** \n\n❤️ HP: `{{monsterHP}}`\n⚔️ Attack: `{{monsterAttack}}`\n\n**Your status:**",
+        "embedDungeon2": "You attack `{{monsterName}}` and take away  `{{playerDamage}}HP`\n`{{monsterName}}` attacks you and takes `{{monsterDamage}}HP`\n\n**Monster Status:** \n\n❤️ HP: `{{monsterHP}}`\n⚔️ Attack: `{{monsterAttack}}`\n\n**Your status:**",
+        "embedDungeon3": "You attack `{{monsterName}}` but it's **NOT ENOUGH MANA** and doesn't do any damage\n`{{monsterName}}` attacks you and takes `{{monsterDamage}}HP`\n\n**Monster Status:** \n\n❤️ HP: `{{monsterHP}}`\n⚔️ Attack: `{{monsterAttack}}`\n\n**Your status:**",
+        "embedDeadTitle": "You lost!!",
+        "embedDead": "You couldn't stand the monster and lost, because of that you'll have to wait 12 hours to get back to a dungeon",
+        "embedWonTitle": "You managed to win and escape the dungeon!",
+        "embedWon": "You escaped the dungeon and got `{{itemAmount}} {{item}}`, plus `{{XP}}XP`",
+        "embedRunTitle": "**You ran away!!**",
+        "embedRun": "Out of fear you decide to wait 15 minutes to get back in another dungeon",
+        "embedItensMenu": "Choose which item you want to use to regain your mana and HP!\n\n{{list}}\n**Your status:**",
+        "embedItensMenuCleanInventory": "⚠️ | clean inventory!\n",
+        "run": "Run"
+    },
+    "inventory": {
+        "embed": "**⭕ Usable items:**\n\n{{listUsable}}\n**🚫 Unusable items:**\n\n{{listUnusable}}\n**🪖 Equipped items:**\n\n{{listEquipped}}\n",
+        "clean": "⚠️ | Clean!\n",
+        "itemSelectionToSell": "Select the item to sell",
+        "noSale": "**You haven't sold any items**",
+        "sold": "**You sold `{{amount}}` `{{itemName}}` for `{{itemPrice}} 💎`**",
+        "embedSaleTitle": "Quantity to be sold: `{{amount}}`",
+        "embedSale": "**Selected item: `{{itemName}}`\nSale value: `{{itemPrice}} 💎`**"
+    },
+    "village": {
+        "options": {
+            "_1": {
+                "label": "⚜️ | Witch house",
+                "description": "The witch will help you with potions"
+            },
+            "_2": {
+                "label": "⚔️ | Blacksmith",
+                "description": "The blacksmith can make you a weapon"
+            },
+            "_3": {
+                "label": "🏘️ | Hotel",
+                "description": "Rest and recover your energy"
+            }
+        },
+        "hotelOptions": {
+            "_1": {
+                "label": "😴 | Afternoon sleep"
+            },
+            "_2": {
+                "label": "😴 | Little rest"
+            },
+            "_3": {
+                "label": "😴 | Great rest"
+            },
+            "_4": {
+                "label": "😴 | Hibernation"
+            }
+        },
+        "hotelDescriptions": "Restores {{HP}} HP and {{mana}} mana",
+        "placeSelection": "Select place",
+        "embedTitle": "{{client}} Village",
+        "embed": "You are in the village, choose where you want to go.",
+        "embedWitchTitle": "⚜️ | Witch house",
+        "embedBlacksmithTitle": "⚔️ | Blacksmith",
+        "embedHotelTitle": "🏘️ | Hotel",
+        "embedHotel": "**Afternoon sleep - `1h`\nLittle rest - `3h`\nGreat rest - `5h`\nHibernation - `8h`**",
+        "embedHotelRest": "**You will be resting for `{{time}}h`!**",
+        "resting": "**You are already resting!!**",
+        "itemPurchaseAlert": "The item will be added to your inventory after purchase.",
+        "purchaseAmount": "**Buy `{{amount}}` of each, total of `{{totalAmount}}` items, for `{{cost}} 💎`**",     
+        "withoutMoney": "**You don't have enough diamonds in your pocket!**",
+        "successfulPurchase": {
+            "witch": "**You purchased the items:\n{{itemName}}\nPrice `{{cost}} 💎`**",
+            "blacksmith": "**You purchased the item {{itemName}} for `{{cost}} 💎`!**\nIt was automatically equipped"
+        },
+        "noItems": "**You don't have all the necessary items!**\n{{requiredItems}}",
+        "nothingToBuy": "**Nothing to buy**",
+        "selectOption": "Select option",
+        "selectTheItem": "Select the item"
+    },
+    "status": {
+        "title": "{{username}} status",
+        "embed": "**Level: `{{playerLevel}}`\nXP: `{{playerXP}}`/`{{requiredXP}}` - `{{percent}}%`**"
+    },
+    "rbuser": {
+        "yes": "Yes",
+        "not": "Not",
+        "ban": "Ban",
+        "friends": "Friends",
+        "followers": "Followers",
+        "following": "Following",
+        "enteredInto": "Entered into"
+    },
+    "rbgame": {
+        "gameNotFound": "**Game not found**",
+        "yes": "Yes",
+        "not": "No",
+        "playing": "Playing",
+        "maximumPlayers": "Maximum players",
+        "likedIt": "Liked it",
+        "didNotLike": "Did not like",
+        "visits": "Visits",
+        "favorites": "Favorites",
+        "genre": "Genre",
+        "createdIn": "Created in",
+        "updated": "Updated",
+        "description": "Description",
+        "voiceChat": "Voice chat",
+        "price": "Price"
+    },
+    "hash": {
+        "sameUser": "**You can't play against yourself!**",
+        "userBot": "**You cannot play against a bot!**",
+        "description": "**{{user}}, {{author}} challenges you to a tic-tac-toe, {{author}} is ❌ it starts**",
+        "won": "**{{user}} you won!!**",
+        "nobodyWon": "**No one won!!**",
+        "turn": "**{{user}}'s turn**",
+        "alert": "**⚠️ | {{user}} you cannot click a button that has already been clicked!!**"
+    },
+    "metadinha": {
+        "nousers": "**You must add at least 2 users**"
+    },
+    "roll": {
+        "txt": "**🎲 | You rolled `{{numberOfDies}}` `{{numberOfSides}}`-sided dice, and got `{{randomNumber}}`**"
+    },
+    "rps": {
+        "options": [
+            "🗻 rock",
+            "📰 paper",
+            "✂️ scissors"
+        ],
+        "win": ":smiling_face_with_tear: **YOU WON!!\nI chose `{{botChoice}}` and you chose `{{userChoice}}`**",
+        "lost": ":sunglasses: **YOU LOST!!\nI chose `{{botChoice}}` and you chose `{{userChoice}}`**",
+        "draw": ":handshake: **DRAW!!\nI chose `{{botChoice}}` and you chose `{{userChoice}}`**"
+    }
+}

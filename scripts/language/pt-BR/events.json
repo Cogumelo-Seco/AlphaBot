@@ -1,0 +1,59 @@
+{
+    "dbs": {
+        "noauthor": "**Você não astava registrado em minha DB, por favor tente novamente**",
+        "nouser": "**O usuário {{user}} não está na minha DB!!**"        
+    },
+    "categories": {
+        "Economy": "Economia",
+        "Fun": "Diversão",
+        "General": "General",
+        "Moderation": "Moderação",
+        "Utils": "Úteis"
+    },
+    "commands": {
+        "invalidPlayer": "**Nome de jogador inválido!**",
+        "usageExample": "Exemplo de uso",
+        "arguments": "Argumentos",
+        "howToUse": "🤔 Como usar",
+        "synonyms": "🚩 Sinônimos",
+        "helpInformation": "**ℹ️ Informações:**\n⠀`<argument>` - Obrigatório\n⠀`[argument]` - Opcional",
+        "nodateuser": "**Você deve estar com uma conta com mais de 10 dias de criação para utilizar este comando!!**",
+        "footer": "Solicitado por",
+        "nopermission": "**Você não tem permissão para usar este comando**",
+        "nocommand": "**O comando `{{command}}` não existe**",
+        "nocommand2": "**Digite o comando**",
+        "noargs": "**Você precisa adicionar um argumento**",
+        "noidofmetion": "**Mencione ou adicione um ID de um usuário válido**",
+        "blockchannel": "**Este canal está bloqueado!!**",
+        "deactivated": "Função desativada",
+        "timeout": "Fim de tempo!"
+    },
+    "src": {
+        "temAlertMessage": "Alpha está tualmente atualizado para o discord.js V13, e configurado para o futuro bloqueio de detecção de mensagens, o discord decidiu colocar o evento \"messageCreate\" como algo privilegiado e que o bot deve ter em um caso muito especifico, que não é o caso do Alpha Bot, por isso os comandos foram movidos para slash commands (comandos de /).\nCaso os comandos não estejam aparecendo verifique as permissões do bot no servidor e no canal, eu em ultimos casos, remova o bot e o coloque no servidor novamente.\nLista de comandos: __https://alpha-site.vercel.app/br/commands__",
+        "nosend": "**Não tenho permissão para enviar mensagens!!**",
+        "userbanned": "**Ou nous Você está banido do {{client}}**",
+        "metionbot": "**Olá eu sou o **{{client}}**, você pode usar meus comandos slash usando a **/**, ou usar minha menção como prefixo, EX: `@Alpha Bot ping`.\n Você pode verificar minha lista de comandos em:** __https://alpha-site.vercel.app/br/commands__",
+        "timer": "**Tu deve esperar {{time}} antes de executar outro comando! <:blz:799729630756077598>**",
+        "botpermission": "Eu não tenho a permissão:",
+        "userpermission": "Você não tem a permissão:"        
+    },
+    "playSong": {
+        "end": "**Fim do queue, desconectado!**",
+        "noPermission": "Eu não tenho permissão para me conectar no canal",
+        "play": "**Tocando:  `{{song}}`\n\nAdicionada a fila por:  `{{author}}`\nDuração: `{{timestamp}}`\n**",
+        "inactive": "**Me desconectei do canal por estar inativo!**",
+        "noChannel": "**Você precisa estar em um canal de voz para reproduzir uma música!**",
+        "connected": "Desculpe já estou conectado no canal",
+        "noArg": "**Você precisa adicionar o nome da música!**",
+        "searching": "**Procurando...**",
+        "limit": "**Limite de 500 músicas excedido!!**",
+        "noFind": "**Desculpe, não encontrei o que você deseja!**",
+        "noSong": "**Nenhuma música sendo reproduzida**",
+        "noChannel2": "**Você precisa estar em um canal de voz**"
+    },
+    "RPG": {
+        "levelUP": "**Você subiu para o nível `{{level}}`!**\nMaxHP: `{{maxHP}}`\nMax Mana: `{{maxMana}}`\nAtaque: `{{attack}}`",
+        "rest": "**Você está descansando, volte {{time}}**",
+        "fullInventory": "⚠️ | Você está com o inventário cheio!"
+    }
+}

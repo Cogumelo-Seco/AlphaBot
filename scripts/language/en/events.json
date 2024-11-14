@@ -1,0 +1,52 @@
+{
+    "dbs": {
+        "noauthor": "**You are not in my DB try again**",
+        "nouser": "**The user {{user}} it's not in my DB!!**"        
+    },
+    "commands":{
+        "invalidPlayer": "**Invalid player name!**",
+        "usageExample": "Usage example",
+        "arguments": "Arguments",
+        "howToUse": "🤔 How to use",
+        "synonyms": "🚩 Synonyms",
+        "helpInformation": "**ℹ️ Information:**\n⠀`<argument>` - Not optional\n⠀`[argument]` - Optional",
+        "nodateuser": "**You must have an account with more than 10 days of creation to use this command!!**",
+        "footer": "Asked by",
+        "nopermission": "**You are not allowed to use this command**",
+        "nocommand": "**The command `{{command}}` does not exist**",
+        "nocommand2": "**Enter the command**",
+        "noargs": "**You need to add an argument**",
+        "noidofmetion": "**Mention or add a valid user ID**",
+        "blockchannel": "**This channel is blocked!!**",
+        "deactivated": "Deactivated function",
+        "timeout": "End of time!"
+    },
+    "src": {
+        "temAlertMessage": "Alpha is currently updated to discord.js V13, and configured for future message detection blocking, discord has decided to place the \"messageCreate\" event as something privileged and that the bot should have in a very specific case, other than this is the case with Alpha Bot, so the commands have been moved to slash commands (commands from /).\nIf the commands are not showing, check the bot's permissions on the server and on the channel, I in the last cases, remove the bot and put it on the server again\nList of commands: __https://alpha-site.vercel.app/en/commands__",
+        "nosend": "**I am not allowed to send messages!!**",
+        "userbanned": "**You are banned from {{client}}**",
+        "metionbot": "**Hi I'm **{{client}}**, you can use my slash commands using **/**, or use my mention as a prefix, EX: `@Alpha Bot ping`.\nYou can check my command list at:** __https://alpha-site.vercel.app/en/commands__",
+        "timer": "**You must wait {{time}} before executing another command! <:blz:799729630756077598>**",
+        "botpermission": "I don't have the permission:",
+        "userpermission": "You do not have the permission:"
+    },
+    "playSong": {
+        "end": "**End of the queue, disconnected!**",
+        "noPermission": "I am not allowed to connect to the channel",
+        "play": "**Playing:  `{{song}}`\n\nAdded to the queue by:  `{{author}}`\nDuration: `{{timestamp}}`\n**",
+        "inactive": "**I disconnected from the channel because I am inactive!**",
+        "noChannel": "**You need to be on a voice channel to play a song!**",
+        "connected": "Sorry I'm already connected to the channel",
+        "noArg": "**You need to add the name of the song!**",
+        "searching": "**Searching...**",
+        "limit": "**500 song limit exceeded!!**",
+        "noFind": "**Sorry, I didn't find what you want!**",
+        "noSong": "**No music playing**",
+        "noChannel2": "**You need to be on a voice channel**"
+    },
+    "RPG": {
+        "levelUP": "**You have risen to level `{{level}}`!**\nMaxHP: `{{maxHP}}`\nMax Mana: `{{maxMana}}`\nAttack: `{{attack}}`",
+        "rest": "**You are resting come back {{time}}**",
+        "fullInventory": "⚠️ | You have full inventory!"
+    }
+}
