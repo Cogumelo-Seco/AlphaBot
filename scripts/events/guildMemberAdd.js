@@ -2,7 +2,7 @@ const Functions = require('../structures/functions/index')
 
 module.exports = async (client, member) => {
 	const guild = member.guild
-	const result = await client.schemas['serv'].findById(guild.id);
+	const result = await client.schemas['serv'].findById(guild.id); // q diabo é schemas kk
 	let msg = result ? new Functions().replaces(result.welcomeMessage, member.user, guild) : null
 	const channel = guild.channels.cache.get(result ? result.welcomeChannel : null)
 

@@ -2,7 +2,7 @@ module.exports = async(client) => {
 	const AlphaConsole = client.functions.console
 	const config = process.env
 
-	AlphaConsole.log(`Online, ${client.user.username} está pronto.`);
+	AlphaConsole.custom('bgGreen', 'brightGreen', `Online, ${client.user.username} está ligado`);
 
 	require('../structures/loadCommands.js')(client, config);
 

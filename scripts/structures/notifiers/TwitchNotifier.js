@@ -9,9 +9,9 @@ module.exports = check = async (client) => {
         })
 	}
 
-    if (!client.TwitchNotifierChannelsLength) Functions.console.custom('bgMagenta', 'magenta', `TW: ${addedChannels.length} canais da Twitch`)
-    if (client.TwitchNotifierChannelsLength > addedChannels.length) Functions.console.custom('bgMagenta', 'magenta', `TW: ${client.YouTubeNotifierChannelsLength-addedChannels.length} canais da Twitch removidos`)
-    if (client.TwitchNotifierChannelsLength < addedChannels.length) Functions.console.custom('bgMagenta', 'magenta', `TW: ${addedChannels.length-client.YouTubeNotifierChannelsLength} canais da Twitch adicionados`)
+    if (!client.TwitchNotifierChannelsLength) Functions.console.custom('bgMagenta', 'magenta', `[TWITCH] ${addedChannels.length} canais`)
+    if (client.TwitchNotifierChannelsLength > addedChannels.length) Functions.console.custom('bgMagenta', 'magenta', `[TWITCH] ${client.YouTubeNotifierChannelsLength-addedChannels.length} canais removidos`)
+    if (client.TwitchNotifierChannelsLength < addedChannels.length) Functions.console.custom('bgMagenta', 'magenta', `[TWITCH] ${addedChannels.length-client.YouTubeNotifierChannelsLength} canais adicionados`)
     client.TwitchNotifierChannelsLength = addedChannels.length
 
     for (let i in addedChannels) {

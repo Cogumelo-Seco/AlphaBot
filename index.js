@@ -13,7 +13,7 @@ manager.on('shardCreate', shard => {
     AlphaConsole.log(`Iniciando shard ${shard.id}`)
 
     shard.on('ready', () => {
-        AlphaConsole.custom('bgGreen', 'brightGreen', `Shard ${shard.id} pronta`)
+        AlphaConsole.warn(`Shard ${shard.id} pronta`)
     })
 
     shard.on('disconnect', (a, b) => {

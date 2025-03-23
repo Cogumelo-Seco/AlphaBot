@@ -99,7 +99,7 @@ module.exports = class extends Functions {
 
     async autocomplete(interaction) {
         const focusedOption = interaction.options.getFocused(true);
-        const commands = (Object.values(this.client.slashCommands).filter(c => String(c.commandNames).includes(focusedOption.value.toLowerCase())).splice(0, 5)).map(c => { return { name: c.commandName, value: c.commandName } })
+        const commands = (Object.values(this.client.slashCommands).filter(c => String(c.commandNames).includes(focusedOption.value.toLowerCase().replace(/\s/g, ''))).splice(0, 5)).map(c => { return { name: c.commandName, value: c.commandName } })
         if (!commands[0]) commands.push({ name: this.structure.help.noCommand, value: '' })
 
         interaction.respond(commands);

@@ -148,7 +148,7 @@ module.exports = class {
         const canvas = Canvas.createCanvas(500, 150);
         const ctx = canvas.getContext('2d');
 
-        const backgroundCanvas = await Canvas.loadImage(`https://cdn.discordapp.com/attachments/784557596580904981/983919132330315786/unknown.png`)
+        const backgroundCanvas = await Canvas.loadImage(`./scripts/structures/functions/canvas/images/Dungeon.png`)
         ctx.drawImage(backgroundCanvas, 0, 0, canvas.width, canvas.height)
 
         // VIDA

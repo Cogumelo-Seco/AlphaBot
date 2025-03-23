@@ -1,7 +1,7 @@
 const { API_TOKEN } = process.env
 const DBL = require("dblapi.js");
 
-module.exports = async (client) => {
+module.exports = async (client) => {/*
     const AlphaConsole = client.functions.console
 
 	try {
@@ -32,5 +32,5 @@ module.exports = async (client) => {
 		setInterval(post, 1800000) // 30 minutos
     } catch (err){
         AlphaConsole.error(`[TOP.GG] ${err}`)
-	}
+	}*/
 }

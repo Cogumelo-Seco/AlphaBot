@@ -15,7 +15,7 @@ module.exports = class {
         if (!liveInfo || !channel || !channelInfo) return setTimeout(() => this.TWNotify(liveId), 2000)
 
         let guilds = (await this.client.schemas['serv'].find()).filter(g => g.TWChannelsToNotify && g.TWChannelsToNotify?.includes(channelInfo.login) && g.TWNotificationChannel != 'off')
-        this.console.custom('bgMagenta', 'magenta', `TW: Live de "${channelInfo.login}" notificada`)
+        this.console.custom('bgMagenta', 'magenta', `[TWITCH] Live de "${channelInfo.login}" notificada`)
 
         for (let i in guilds) {
             let DBGuild = guilds[i]

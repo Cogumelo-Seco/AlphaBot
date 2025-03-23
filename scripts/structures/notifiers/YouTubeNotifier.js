@@ -11,9 +11,9 @@ module.exports = check = async (client) => {
         })
 	}
 
-    if (!client.YouTubeNotifierChannelsLength) Functions.console.custom('bgRed', 'red', `YT: ${addedChannels.length} canais do YouTube`)
-    if (client.YouTubeNotifierChannelsLength > addedChannels.length) Functions.console.custom('bgRed', 'red', `YT: ${client.YouTubeNotifierChannelsLength-addedChannels.length} canais do YouTube removidos`)
-    if (client.YouTubeNotifierChannelsLength < addedChannels.length) Functions.console.custom('bgRed', 'red', `YT: ${addedChannels.length-client.YouTubeNotifierChannelsLength} canais do YouTube adicionados`)
+    if (!client.YouTubeNotifierChannelsLength) Functions.console.custom('bgRed', 'red', `[YOUTUBE] ${addedChannels.length} canais`)
+    if (client.YouTubeNotifierChannelsLength > addedChannels.length) Functions.console.custom('bgRed', 'red', `[YOUTUBE] ${client.YouTubeNotifierChannelsLength-addedChannels.length} canais removidos`)
+    if (client.YouTubeNotifierChannelsLength < addedChannels.length) Functions.console.custom('bgRed', 'red', `[YOUTUBE] ${addedChannels.length-client.YouTubeNotifierChannelsLength} canais adicionados`)
     client.YouTubeNotifierChannelsLength = addedChannels.length
 
     for (let i in addedChannels) {

@@ -26,6 +26,7 @@ module.exports = class extends Functions {
 
         const result = await this.client.schemas['user'].findById(user.id);
 
+
         const embed = new MessageEmbed()
             .setColor(result ? result.color || this.config.botColor1 : this.config.botColor1)
             .setAuthor({ name: `${this.structure.bal.embed_author} ${this.client.user.username}`, iconURL: this.client.user.avatarURL() })

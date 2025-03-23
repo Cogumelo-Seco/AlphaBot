@@ -11,7 +11,7 @@ module.exports = async (config, client) => {
     mongo.set('strictQuery', false)
     mongo.connect(config.MONGO, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
-        AlphaConsole.log(`Mongoose Conectado!`)
+        AlphaConsole.custom('bgBrightBlue', 'brightBlue', `Mongoose Conectado!`)
         client.login(config.TOKEN)
     }).catch((err) => AlphaConsole.error('[MONGO] ERRO: ' + err));
 }

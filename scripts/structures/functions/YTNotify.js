@@ -13,7 +13,7 @@ module.exports = class {
 
 		let guilds = (await this.client.schemas['serv'].find()).filter(g => g.YTChannelsToNotify && g.YTChannelsToNotify?.includes(videoInfo.channelId) && g.YTNotificationChannel != 'off')
 
-        this.console.custom('bgRed', false, `YT: Video "${videoId}" notificado`)
+        this.console.custom('bgRed', false, `[YOUTUBE] Video "${videoId}" notificado`)
 
 		for (let i in guilds) {
             let DBGuild = guilds[i]

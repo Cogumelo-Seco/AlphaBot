@@ -38,11 +38,11 @@ module.exports = class extends Functions {
             .addComponents(
                 new MessageButton()
                     .setCustomId('previous')
-                    .setEmoji('◀️')
+                    .setEmoji('1️⃣')
                     .setStyle('SECONDARY'),
                 new MessageButton()
                     .setCustomId('next')
-                    .setEmoji('▶️')
+                    .setEmoji('2️⃣')
                     .setStyle('SECONDARY'),
             );
 
@@ -71,13 +71,18 @@ module.exports = class extends Functions {
                     .setFooter({ text: `${this.events.commands.footer} ${message.user.tag}`, iconURL: message.user.avatarURL({ dynamic: true, format: "png", size: 1024 })  || message.user.defaultAvatarURL })
                     .setTimestamp()
                 msg.edit({ embeds: [embedLoading] }).catch(() => null)
-
+                
                 let CPUInfo = await si.cpu()
                 let memInfo = await si.mem()
                 let osInfo = await si.osInfo()
-                let graphicsInfo = await si.graphics()
+                let baseboardInfo  = await si.baseboard()
+                let graphicCardInfoText = ''
+                let graphicCardInfo = await si.graphics()
+                for (let i in graphicCardInfo.controllers) {
+                    if (graphicCardInfo.controllers[i].vram > 0) graphicCardInfoText += `\nGraphicCard: \`${graphicCardInfo.controllers[i].model}\` \`${(graphicCardInfo.controllers[i].vram/1000).toFixed(0)} Gb\``
+                }
                 
-                const status = `**${this.structure.botinfo.memoryt} \`${(memInfo.total/1000000000).toFixed(2)} Gb\`\n${this.structure.botinfo.memoryu} \`${(memInfo.available/1000000000).toFixed(2)} Gb\`\nCPU: \`${CPUInfo.physicalCores}/${CPUInfo.cores}\` - \`${CPUInfo.brand}\` \`${CPUInfo.speedMax} GHz\`\nGraphics: \`${graphicsInfo.controllers[1].model}\` \`${(graphicsInfo.controllers[1].vram/1000).toFixed(0)} Gb\`\n${this.structure.botinfo.platform} \`${osInfo.distro} ${osInfo.arch}\`\n${this.structure.botinfo.host} \`${osInfo.hostname}\`**`
+                const status = `**${this.structure.botinfo.memoryt} \`${(memInfo.total/1000000000).toFixed(2)} Gb\`\n${this.structure.botinfo.memoryu} \`${(memInfo.available/1000000000).toFixed(2)} Gb\`\nCPU: \`${CPUInfo.physicalCores}/${CPUInfo.cores}\` - \`${CPUInfo.brand}\` \`${CPUInfo.speedMax} GHz\`${graphicCardInfoText}\nMainboard: \`${baseboardInfo.manufacturer}\` - \`${baseboardInfo.model}\`\n${this.structure.botinfo.platform} \`${osInfo.distro} ${osInfo.arch}\`\n${this.structure.botinfo.host} \`${osInfo.hostname}\`**`
 
                 const users = (await this.client.shard.fetchClientValues("guilds.cache")).reduce((a, b) => a.concat(b)).map(g => g.memberCount).reduce((a, b) => a+b)
                 const channels = (await this.client.shard.fetchClientValues("channels.cache.size")).reduce((a, b) => b + a)
